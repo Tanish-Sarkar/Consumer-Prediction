@@ -8,6 +8,7 @@ joblib
 
 
 Small snippet to import file in `.py` file with pandas if `pd.read_csv("PATH")`  is not working directly
+#
 ```
 import pandas as pd
 import os
@@ -31,7 +32,4 @@ except Exception as e:
     except Exception as e:
         print(f"Still failing: {e}")
         print("Check if the file exists and is a valid CSV.")
-
-
-
 ```
