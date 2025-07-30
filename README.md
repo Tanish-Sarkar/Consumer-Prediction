@@ -1,4 +1,3 @@
-Here’s a complete and clean `README.md` you can use for your **Customer Churn Prediction** project:
 
 ---
 
@@ -21,35 +20,6 @@ A complete Machine Learning pipeline built using Scikit-learn for predicting cus
 ---
 
 ## 📁 Project Structure
-
-```
-customer-churn-prediction/
-│
-├── data/
-│   ├── raw/                # Original CSV files
-│   └── processed/          # Cleaned and transformed data
-│
-├── notebooks/
-│   ├── 01\_eda.ipynb        # Exploratory data analysis
-│   └── 02\_modeling.ipynb   # Model experiments
-│
-├── outputs/
-│   ├── model.joblib        # Trained model
-│   └── metrics.json        # Accuracy, precision, recall, F1-score
-│
-├── src/
-│   ├── data\_loader.py      # load\_data() function
-│   ├── preprocessing.py    # feature engineering & cleaning
-│   ├── model.py            # model training/saving
-│   ├── evaluate.py         # metrics & confusion matrix
-│   ├── utils.py            # helper utilities (save/load)
-│   └── **init**.py
-│
-├── main.py                 # Execution script (entry point)
-├── requirements.txt        # Required packages
-└── README.md               # You are here
-
-```
 
 ---
 
