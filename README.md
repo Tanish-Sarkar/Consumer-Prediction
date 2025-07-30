@@ -16,14 +16,14 @@ A complete Machine Learning pipeline built using Scikit-learn for predicting cus
 - Ready to plug into Flask/Streamlit for deployment
 
 ---
-
+````
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/customer-churn-prediction.git
 cd customer-churn-prediction
-````
+```
 
 ### 2. Install dependencies
 
