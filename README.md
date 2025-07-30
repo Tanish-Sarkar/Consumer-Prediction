@@ -23,7 +23,6 @@ A complete Machine Learning pipeline built using Scikit-learn for predicting cus
 ## 📁 Project Structure
 
 ```
-
 customer-churn-prediction/
 │
 ├── data/
@@ -50,7 +49,7 @@ customer-churn-prediction/
 ├── requirements.txt        # Required packages
 └── README.md               # You are here
 
-````
+```
 
 ---
 
