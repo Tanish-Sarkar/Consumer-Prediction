@@ -1,8 +1,6 @@
 
----
-
 ```markdown
-# 📊 Customer Churn Prediction
+#  Customer Churn Prediction
 
 A complete Machine Learning pipeline built using Scikit-learn for predicting customer churn in a telecom company. The project is modular, production-ready, and follows a structured folder architecture for clarity and reusability.
 
@@ -16,10 +14,6 @@ A complete Machine Learning pipeline built using Scikit-learn for predicting cus
 - Performance metrics saved in JSON
 - Confusion matrix visualization
 - Ready to plug into Flask/Streamlit for deployment
-
----
-
-## 📁 Project Structure
 
 ---
 
@@ -71,8 +65,8 @@ Telco Customer Churn dataset from Kaggle:
 ## ✍️ Author
 
 * **Tanish Sarkar**
-* GitHub: [@tan1sh-sarkar](https://github.com/tan1sh-sarkar)
-* Twitter/X: [@tan1sh\_codes](https://twitter.com/)
+* LinkedIN: [Tanish Sarkar](https://www.linkedin.com/in/tanish-sarkar/)
+* Twitter/X: [Tanish Sarkar](https://twitter.com/)
 
 ---
 
@@ -87,11 +81,4 @@ Telco Customer Churn dataset from Kaggle:
 
 ## ⭐️ If you found this project helpful
 
-Give it a ⭐️ on [GitHub](https://github.com/) and connect with me on [LinkedIn](https://www.linkedin.com/).
 
-```
-
----
-
-Let me know if you'd like a version of this with your actual GitHub repo link, or if you want me to auto-generate the `requirements.txt` as well.
-```
