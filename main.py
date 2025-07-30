@@ -1,6 +1,8 @@
 from src.data_loader import load_data
-from src.preprocessing import split_data, preprocess_data
-from src.model import train_model, evaluate_model, save_model
+from src.preprocessing import preprocess_data, split_data
+from src.model import train_model, save_model
+from src.evaluation import evaluate_model, plot_confusion_matrix
+from src.utils import save_metrics
 import os
 
 def main():
@@ -18,8 +20,18 @@ def main():
     print("✅ Data Split into Train/Test")
 
     model = train_model(X_train, y_train)
-    evaluate_model(model, X_test, y_test)
-    save_model(model)
+    print("✅ Model Trained...")
+
+    metrics = evaluate_model(model, X_test, y_test)
+    print("✅ Model Evaluated...")
+
+    print("📊 Plotting Confusion Matrix...")
+    y_pred = model.predict(X_test)
+    plot_confusion_matrix(y_test, y_pred)
+
+    print("💾 Saving Model and Metrics...")
+    save_model(model, "outputs/LogisticModel.joblib")
+    save_metrics(metrics)
 
 if __name__ == "__main__":
     main()
