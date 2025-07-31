@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 # 🧠 Customer Churn Prediction
 
 ## 📌 Overview
@@ -10,6 +11,10 @@ This project focuses on predicting whether a customer is likely to churn using h
 ---
 
 ## 🎯 Why This Project Matters
+=======
+```markdown
+#  Customer Churn Prediction
+>>>>>>> b910e47c414a11acfbedabb252413a1c8dbb7bbe
 
 Churn prediction isn’t just about numbers — it directly impacts **business revenue, marketing strategy, and customer satisfaction**. Companies spend thousands attracting new users, but if they lose them rapidly, the cost compounds.
 
@@ -33,6 +38,7 @@ This project allowed me to:
 * Understand how ML can impact strategic areas of a business like customer retention
 
 ---
+<<<<<<< HEAD
 
 ## 📂 Project Highlights
 
@@ -46,6 +52,28 @@ This project allowed me to:
 ## 🧩 Dataset
 
 The project uses a publicly available **Telco Customer Churn** dataset that contains customer behavior and service usage data. It includes demographics, account info, service subscriptions, and churn labels.
+=======
+````
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/customer-churn-prediction.git
+cd customer-churn-prediction
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the project
+
+```bash
+python main.py
+```
+>>>>>>> b910e47c414a11acfbedabb252413a1c8dbb7bbe
 
 ---
 
@@ -53,3 +81,44 @@ The project uses a publicly available **Telco Customer Churn** dataset that cont
 
 This project reinforced the importance of **data-driven decision-making** and provided valuable experience in translating raw data into actionable insights — something every business needs to thrive.
 
+<<<<<<< HEAD
+=======
+---
+
+## 🧠 Algorithms Used
+
+* Logistic Regression (baseline)
+* Preprocessing: Label Encoding, StandardScaler
+* Evaluation: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
+
+---
+
+## 🗃 Outputs
+
+* ✅ Model file: `outputs/LinearModel.joblib`
+* ✅ Metrics: `outputs/metrics.json`
+* ✅ Confusion Matrix: `matplotlib` plot displayed on evaluation
+
+---
+
+## ✍️ Author
+
+* **Tanish Sarkar**
+* LinkedIN: [Tanish Sarkar](https://www.linkedin.com/in/tanish-sarkar/)
+* Twitter/X: [Tanish Sarkar](https://twitter.com/)
+
+---
+
+## 📌 Future Work
+
+* Add advanced models (RandomForest, XGBoost)
+* Deploy using Flask or Streamlit
+* Add CI/CD and Docker
+* Extend for A/B testing and monitoring (MLOps)
+
+---
+
+## ⭐️ If you found this project helpful
+
+
+>>>>>>> b910e47c414a11acfbedabb252413a1c8dbb7bbe
